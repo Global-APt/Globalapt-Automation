@@ -10,8 +10,13 @@ Open `index.html` in Chrome or Edge. No Node.js build step is required.
 - Responsive navigation, keyboard focus states, descriptive image text, reduced-motion support and accessible form labels
 - Mobile-first layouts and performance-minded image loading
 - Responsive date-and-room preference strip plus reservation estimate with date validation (not a live booking)
+- Larger, more readable typography using Source Sans 3 for interface text and Libre Baskerville for formal headings
+- Department workspace navigation for Front Desk, Housekeeping, Maintenance, IT Support, Inventory, Accounting, Management and Owner oversight
+- Accounting demonstration with sample revenue/settlement lines, draft expense entry and CSV demo export
+- Owner oversight view aggregating sample service requests and low-stock alerts
 - Guest request portal with request references and status tracking
 - Management overview with sample occupancy and room status
+- Owner overview for cross-department visibility (sample data only)
 - Front desk room board with clickable demo room statuses
 - Housekeeping, maintenance and IT request queues
 - Inventory register with sample stock receipt actions
