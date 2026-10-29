@@ -92,7 +92,7 @@ function renderAll(){renderRequests();renderRooms();renderStock()}
 $$('[data-tab]').forEach(b=>b.addEventListener('click',()=>{const t=b.dataset.tab;$$('.dashview').forEach(v=>v.classList.toggle('active',v.id==='tab-'+t));$$('.dashnav button').forEach(x=>x.classList.toggle('active',x.dataset.tab===t));renderAll()}));
 $('#requestForm').addEventListener('submit',e=>{e.preventDefault();const id='REQ-'+(2041+requests.length);requests.push({id,room:$('#reqRoom').value,dept:$('#reqDept').value,priority:$('#reqPriority').value,detail:$('#reqDetail').value,status:'New',owner:'Unassigned'});e.target.reset();renderAll();toast('Request '+id+' added to the demo queue.')});
 $('#newRequest').addEventListener('click',()=>{page('guest');toast('Complete the form to create a sample request.')});
-$('#addArrival').addEventListener('click',()=>toast('Demo only: a real arrival must be linked to a confirmed reservation.')});
+$('#addArrival').addEventListener('click',()=>toast('Demo only: a real arrival must be linked to a confirmed reservation.'));
 $('#receiveStock').addEventListener('click',()=>{const item=prompt('Which existing stock item was received? (demo)');if(!item)return;const s=stock.find(x=>x.name.toLowerCase()===item.toLowerCase());if(s){s.qty+=5;renderStock();toast('Received five units of '+s.name+' in the demo.')}else toast('Item not found. Enter an existing stock item name.')});
 renderAll();
 </script>
