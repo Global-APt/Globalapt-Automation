@@ -1,13 +1,15 @@
 # LIBERTY HOTEL — Interactive Hospitality Demo
 
-Static HTML/CSS/JavaScript prototype for presenting the proposed LIBERTY HOTEL guest website and hospitality operations dashboard.
+Static HTML/CSS/JavaScript prototype for presenting the proposed LIBERTY HOTEL guest website and hospitality operations dashboard. The visual direction uses editorial serif headlines, restrained forest-green and brass accents, warm neutral surfaces, generous spacing and photography-led room presentation.
 
 ## Run locally
 Open `index.html` in Chrome or Edge. No Node.js build step is required.
 
 ## Demo areas
 - Public hotel website: Home, Rooms & Suites, Gallery, Services, Contact
-- Reservation preview with sample rates and date validation
+- Responsive navigation, keyboard focus states, descriptive image text, reduced-motion support and accessible form labels
+- Mobile-first layouts and performance-minded image loading
+- Responsive date-and-room preference strip plus reservation estimate with date validation (not a live booking)
 - Guest request portal with request references and status tracking
 - Management overview with sample occupancy and room status
 - Front desk room board with clickable demo room statuses
